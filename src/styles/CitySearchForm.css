@@ -1,0 +1,51 @@
+.CitySearchForm-Container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+@media screen and (min-width: 320px) {
+  .CitySearchForm-Form {
+    display: flex;
+    width: 80vw;
+  } 
+}
+
+ @media screen and (min-width: 481px) {
+  .CitySearchForm-Form {
+    display: flex;
+    width: 50vw;
+  } 
+}
+
+ @media screen and (min-width: 600px) {
+  .CitySearchForm-Form {
+    display: flex;
+    width: 40vw;
+  } 
+}
+
+
+ @media screen and (min-width: 769px) {
+  .CitySearchForm-Form {
+    display: flex;
+    width: 35vw;
+  } 
+}
+
+@media screen and (min-width: 1025px) {
+  .CitySearchForm-Form {
+    display: flex;
+    width: 30vw;
+  }  
+} 
+
+@media screen and (min-width: 1201px) {
+  .CitySearchForm-Form {
+    display: flex;
+    width: 30vw;
+  }  
+}

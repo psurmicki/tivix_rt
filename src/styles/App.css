@@ -1,0 +1,16 @@
+* {
+  font: 16px arial,helvetica,sans-serif
+}
+
+.App {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.App-body {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
